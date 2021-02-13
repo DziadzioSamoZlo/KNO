@@ -154,7 +154,7 @@ def learning_curve_sklearn(train_sizes, train_scores, validation_scores, rms):
     plt.figure()
     plt.plot(train_sizes, train_scores_mean, label = 'Training error')
     plt.plot(train_sizes, validation_scores_mean, label = 'Validation error')
-    plt.xlabel('Training set size\n Root Mean Square Error' = %.2g % rms)
+    plt.xlabel('Training set size\n Root Mean Square Error = %.2g' % rms)
     plt.ylabel('MSE')
     plt.legend()
     plt.ylim([0,12])
