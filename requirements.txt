@@ -1,0 +1,9 @@
+Wymagane biblioteki:
+-numpy
+-pandas
+-sklearn
+-tensorflow
+-matplotlib
+
+Dane na których pracujemy to abalone.csv z repozytorium UCI:
+http://archive.ics.uci.edu/ml/datasets/Abalone
