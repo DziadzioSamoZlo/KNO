@@ -176,7 +176,8 @@ from sklearn.model_selection import learning_curve
 
 # Krzywa uczenia dla DTR
 """Dla wyciągnięcia danych dla krzywej uczenia używamy funkcji learning_curve,
-w tej funkcji nie ma możliwości scorowania za pomocą mse, dlatego używamy nmse i później odwaracmy dane"""
+w tej funkcji nie ma możliwości scorowania za pomocą mse, dlatego używamy nmse i później odwaracmy dane
+źródło, na którym się opierałem: https://www.dataquest.io/blog/learning-curves-machine-learning/"""
 train_sizes, train_scores, validation_scores = learning_curve(
 estimator = DecisionTreeRegressor(max_depth=10),
 X = X, y = Y, train_sizes = train_sizes, cv = 15,
